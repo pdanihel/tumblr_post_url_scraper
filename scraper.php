@@ -15,7 +15,7 @@ $link_number = 0; // link count (honestly, i don't know why i put it)
 $allthelinks[] = ""; // All the URLs!
 $thevictim = "thecarnetwork"; // replace with some victims username
 $victimstrace = $thevictim . ".tumblr.com";
-$howmanypages = 2; // replace with the actual number of pages you want it to search for and shoot in your face
+$howmanypages = 100; // replace with the actual number of pages you want it to search for and shoot in your face
 $datsearchpattern = "div[class*='post'] a[href*='/post/'], li[class*='post'] a[href*='/post/'], p[class*='post'] a[href*='/post/']"; // see http://simplehtmldom.sourceforge.net/manual.htm for help
 
 print $thevictim . " is \$thevictim.\n";
